@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B56DD5EE16AAE68C00AD40F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56DD5ED16AAE68C00AD40F3 /* UIKit.framework */; };
+		B56DD5F016AAE68C00AD40F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56DD5EF16AAE68C00AD40F3 /* Foundation.framework */; };
+		B56DD5F216AAE68C00AD40F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56DD5F116AAE68C00AD40F3 /* CoreGraphics.framework */; };
+		B56DD5F816AAE68C00AD40F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B56DD5F616AAE68C00AD40F3 /* InfoPlist.strings */; };
+		B56DD5FA16AAE68C00AD40F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B56DD5F916AAE68C00AD40F3 /* main.m */; };
+		B56DD5FE16AAE68C00AD40F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B56DD5FD16AAE68C00AD40F3 /* AppDelegate.m */; };
+		B56DD60016AAE68C00AD40F3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B56DD5FF16AAE68C00AD40F3 /* Default.png */; };
+		B56DD60216AAE68C00AD40F3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B56DD60116AAE68C00AD40F3 /* Default@2x.png */; };
+		B56DD60416AAE68C00AD40F3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B56DD60316AAE68C00AD40F3 /* Default-568h@2x.png */; };
+		B56DD60716AAE68C00AD40F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56DD60616AAE68C00AD40F3 /* ViewController.m */; };
+		B56DD60A16AAE68C00AD40F3 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56DD60816AAE68C00AD40F3 /* ViewController_iPhone.xib */; };
+		B56DD61916AAE6D700AD40F3 /* easyjs-inject.js in Sources */ = {isa = PBXBuildFile; fileRef = B56DD61416AAE6D700AD40F3 /* easyjs-inject.js */; };
+		B56DD61A16AAE6D700AD40F3 /* EasyJSWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = B56DD61616AAE6D700AD40F3 /* EasyJSWebView.m */; };
+		B56DD61B16AAE6D700AD40F3 /* EasyJSWebViewProxyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B56DD61816AAE6D700AD40F3 /* EasyJSWebViewProxyDelegate.m */; };
+		B56DD61D16AAE73500AD40F3 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = B56DD61C16AAE73500AD40F3 /* test.html */; };
+		B56DD62016AAE7A300AD40F3 /* MyJSInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = B56DD61F16AAE7A200AD40F3 /* MyJSInterface.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B56DD5E916AAE68C00AD40F3 /* EasyJSWebViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyJSWebViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56DD5ED16AAE68C00AD40F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B56DD5EF16AAE68C00AD40F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B56DD5F116AAE68C00AD40F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B56DD5F516AAE68C00AD40F3 /* EasyJSWebViewSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyJSWebViewSample-Info.plist"; sourceTree = "<group>"; };
+		B56DD5F716AAE68C00AD40F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B56DD5F916AAE68C00AD40F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B56DD5FB16AAE68C00AD40F3 /* EasyJSWebViewSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyJSWebViewSample-Prefix.pch"; sourceTree = "<group>"; };
+		B56DD5FC16AAE68C00AD40F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B56DD5FD16AAE68C00AD40F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B56DD5FF16AAE68C00AD40F3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B56DD60116AAE68C00AD40F3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B56DD60316AAE68C00AD40F3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B56DD60516AAE68C00AD40F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B56DD60616AAE68C00AD40F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B56DD60916AAE68C00AD40F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		B56DD61416AAE6D700AD40F3 /* easyjs-inject.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "easyjs-inject.js"; sourceTree = "<group>"; };
+		B56DD61516AAE6D700AD40F3 /* EasyJSWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyJSWebView.h; sourceTree = "<group>"; };
+		B56DD61616AAE6D700AD40F3 /* EasyJSWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyJSWebView.m; sourceTree = "<group>"; };
+		B56DD61716AAE6D700AD40F3 /* EasyJSWebViewProxyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyJSWebViewProxyDelegate.h; sourceTree = "<group>"; };
+		B56DD61816AAE6D700AD40F3 /* EasyJSWebViewProxyDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyJSWebViewProxyDelegate.m; sourceTree = "<group>"; };
+		B56DD61C16AAE73500AD40F3 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		B56DD61E16AAE7A200AD40F3 /* MyJSInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyJSInterface.h; sourceTree = "<group>"; };
+		B56DD61F16AAE7A200AD40F3 /* MyJSInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyJSInterface.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B56DD5E616AAE68C00AD40F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56DD5EE16AAE68C00AD40F3 /* UIKit.framework in Frameworks */,
+				B56DD5F016AAE68C00AD40F3 /* Foundation.framework in Frameworks */,
+				B56DD5F216AAE68C00AD40F3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B56DD5DE16AAE68C00AD40F3 = {
+			isa = PBXGroup;
+			children = (
+				B56DD5F316AAE68C00AD40F3 /* EasyJSWebViewSample */,
+				B56DD5EC16AAE68C00AD40F3 /* Frameworks */,
+				B56DD5EA16AAE68C00AD40F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B56DD5EA16AAE68C00AD40F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B56DD5E916AAE68C00AD40F3 /* EasyJSWebViewSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B56DD5EC16AAE68C00AD40F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B56DD5ED16AAE68C00AD40F3 /* UIKit.framework */,
+				B56DD5EF16AAE68C00AD40F3 /* Foundation.framework */,
+				B56DD5F116AAE68C00AD40F3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B56DD5F316AAE68C00AD40F3 /* EasyJSWebViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				B56DD61316AAE6D700AD40F3 /* EasyJSWebView */,
+				B56DD5FC16AAE68C00AD40F3 /* AppDelegate.h */,
+				B56DD5FD16AAE68C00AD40F3 /* AppDelegate.m */,
+				B56DD61E16AAE7A200AD40F3 /* MyJSInterface.h */,
+				B56DD61F16AAE7A200AD40F3 /* MyJSInterface.m */,
+				B56DD60516AAE68C00AD40F3 /* ViewController.h */,
+				B56DD60616AAE68C00AD40F3 /* ViewController.m */,
+				B56DD60816AAE68C00AD40F3 /* ViewController_iPhone.xib */,
+				B56DD5F416AAE68C00AD40F3 /* Supporting Files */,
+			);
+			path = EasyJSWebViewSample;
+			sourceTree = "<group>";
+		};
+		B56DD5F416AAE68C00AD40F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B56DD61C16AAE73500AD40F3 /* test.html */,
+				B56DD5F516AAE68C00AD40F3 /* EasyJSWebViewSample-Info.plist */,
+				B56DD5F616AAE68C00AD40F3 /* InfoPlist.strings */,
+				B56DD5F916AAE68C00AD40F3 /* main.m */,
+				B56DD5FB16AAE68C00AD40F3 /* EasyJSWebViewSample-Prefix.pch */,
+				B56DD5FF16AAE68C00AD40F3 /* Default.png */,
+				B56DD60116AAE68C00AD40F3 /* Default@2x.png */,
+				B56DD60316AAE68C00AD40F3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B56DD61316AAE6D700AD40F3 /* EasyJSWebView */ = {
+			isa = PBXGroup;
+			children = (
+				B56DD61416AAE6D700AD40F3 /* easyjs-inject.js */,
+				B56DD61516AAE6D700AD40F3 /* EasyJSWebView.h */,
+				B56DD61616AAE6D700AD40F3 /* EasyJSWebView.m */,
+				B56DD61716AAE6D700AD40F3 /* EasyJSWebViewProxyDelegate.h */,
+				B56DD61816AAE6D700AD40F3 /* EasyJSWebViewProxyDelegate.m */,
+			);
+			path = EasyJSWebView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B56DD5E816AAE68C00AD40F3 /* EasyJSWebViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56DD61016AAE68C00AD40F3 /* Build configuration list for PBXNativeTarget "EasyJSWebViewSample" */;
+			buildPhases = (
+				B56DD5E516AAE68C00AD40F3 /* Sources */,
+				B56DD5E616AAE68C00AD40F3 /* Frameworks */,
+				B56DD5E716AAE68C00AD40F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyJSWebViewSample;
+			productName = EasyJSWebViewSample;
+			productReference = B56DD5E916AAE68C00AD40F3 /* EasyJSWebViewSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B56DD5E016AAE68C00AD40F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Dukeland;
+			};
+			buildConfigurationList = B56DD5E316AAE68C00AD40F3 /* Build configuration list for PBXProject "EasyJSWebViewSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B56DD5DE16AAE68C00AD40F3;
+			productRefGroup = B56DD5EA16AAE68C00AD40F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B56DD5E816AAE68C00AD40F3 /* EasyJSWebViewSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B56DD5E716AAE68C00AD40F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56DD5F816AAE68C00AD40F3 /* InfoPlist.strings in Resources */,
+				B56DD60016AAE68C00AD40F3 /* Default.png in Resources */,
+				B56DD60216AAE68C00AD40F3 /* Default@2x.png in Resources */,
+				B56DD60416AAE68C00AD40F3 /* Default-568h@2x.png in Resources */,
+				B56DD60A16AAE68C00AD40F3 /* ViewController_iPhone.xib in Resources */,
+				B56DD61D16AAE73500AD40F3 /* test.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B56DD5E516AAE68C00AD40F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56DD5FA16AAE68C00AD40F3 /* main.m in Sources */,
+				B56DD5FE16AAE68C00AD40F3 /* AppDelegate.m in Sources */,
+				B56DD60716AAE68C00AD40F3 /* ViewController.m in Sources */,
+				B56DD61916AAE6D700AD40F3 /* easyjs-inject.js in Sources */,
+				B56DD61A16AAE6D700AD40F3 /* EasyJSWebView.m in Sources */,
+				B56DD61B16AAE6D700AD40F3 /* EasyJSWebViewProxyDelegate.m in Sources */,
+				B56DD62016AAE7A300AD40F3 /* MyJSInterface.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B56DD5F616AAE68C00AD40F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56DD5F716AAE68C00AD40F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B56DD60816AAE68C00AD40F3 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56DD60916AAE68C00AD40F3 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B56DD60E16AAE68C00AD40F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B56DD60F16AAE68C00AD40F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B56DD61116AAE68C00AD40F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyJSWebViewSample/EasyJSWebViewSample-Prefix.pch";
+				INFOPLIST_FILE = "EasyJSWebViewSample/EasyJSWebViewSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B56DD61216AAE68C00AD40F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyJSWebViewSample/EasyJSWebViewSample-Prefix.pch";
+				INFOPLIST_FILE = "EasyJSWebViewSample/EasyJSWebViewSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B56DD5E316AAE68C00AD40F3 /* Build configuration list for PBXProject "EasyJSWebViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56DD60E16AAE68C00AD40F3 /* Debug */,
+				B56DD60F16AAE68C00AD40F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B56DD61016AAE68C00AD40F3 /* Build configuration list for PBXNativeTarget "EasyJSWebViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56DD61116AAE68C00AD40F3 /* Debug */,
+				B56DD61216AAE68C00AD40F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B56DD5E016AAE68C00AD40F3 /* Project object */;
+}
