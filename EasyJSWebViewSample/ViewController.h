@@ -11,6 +11,8 @@
 
 @interface ViewController : UIViewController
 
-@property (nonatomic) IBOutlet EasyJSWebView* myWebView;
+@property (nonatomic, retain) IBOutlet EasyJSWebView* myWebView;
+
+- (void) testDealloc;
 
 @end

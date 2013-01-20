@@ -23,7 +23,8 @@
 }
 
 - (NSString*) testWithRet{
-	return @"js";
+	NSString* ret = @"js";
+	return ret;
 }
 
 @end
