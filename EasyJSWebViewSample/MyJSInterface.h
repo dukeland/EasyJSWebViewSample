@@ -16,6 +16,7 @@
 - (void) testWithTwoParam: (NSString*) param AndParam2: (NSString*) param2;
 
 - (void) testWithFuncParam: (EasyJSDataFunction*) param;
+- (void) testWithFuncParam2: (EasyJSDataFunction*) param;
 
 - (NSString*) testWithRet;
 

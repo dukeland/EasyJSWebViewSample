@@ -25,9 +25,18 @@
 - (void) testWithFuncParam: (EasyJSDataFunction*) param{
 	NSLog(@"test with func");
 	
+	param.removeAfterExecute = YES;
 	NSString* ret = [param executeWithParam:@"blabla:\"bla"];
 	
 	NSLog(@"Return value from callback: %@", ret);
+}
+
+- (void) testWithFuncParam2: (EasyJSDataFunction*) param{
+	NSLog(@"test with func 2 but not removing callback after invocation");
+	
+	param.removeAfterExecute = NO;
+	[param executeWithParam:@"data 1"];
+	[param executeWithParam:@"data 2"];
 }
 
 - (NSString*) testWithRet{

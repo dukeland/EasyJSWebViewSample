@@ -8,8 +8,13 @@
 			MyJSTest.testWithRet();
 			
 			MyJSTest.testWithFuncParam(function (data){
-				alert(data);
+				alert("Data from testWithFuncParam: " + data);
 				return "some data";
+			});
+			
+			
+			MyJSTest.testWithFuncParam2(function (data){
+			    alert("Data from testWithFuncParam2: " + data);
 			});
 		</script>
 	</head>
