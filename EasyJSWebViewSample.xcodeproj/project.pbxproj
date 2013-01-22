@@ -23,6 +23,7 @@
 		B56DD61B16AAE6D700AD40F3 /* EasyJSWebViewProxyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B56DD61816AAE6D700AD40F3 /* EasyJSWebViewProxyDelegate.m */; };
 		B56DD61D16AAE73500AD40F3 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = B56DD61C16AAE73500AD40F3 /* test.html */; };
 		B56DD62016AAE7A300AD40F3 /* MyJSInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = B56DD61F16AAE7A200AD40F3 /* MyJSInterface.m */; };
+		FAFC6E1816AD815200DFE50D /* EasyJSDataFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFC6E1716AD815200DFE50D /* EasyJSDataFunction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,8 @@
 		B56DD61C16AAE73500AD40F3 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 		B56DD61E16AAE7A200AD40F3 /* MyJSInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyJSInterface.h; sourceTree = "<group>"; };
 		B56DD61F16AAE7A200AD40F3 /* MyJSInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyJSInterface.m; sourceTree = "<group>"; };
+		FAFC6E1616AD815200DFE50D /* EasyJSDataFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyJSDataFunction.h; sourceTree = "<group>"; };
+		FAFC6E1716AD815200DFE50D /* EasyJSDataFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyJSDataFunction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,8 @@
 				B56DD61616AAE6D700AD40F3 /* EasyJSWebView.m */,
 				B56DD61716AAE6D700AD40F3 /* EasyJSWebViewProxyDelegate.h */,
 				B56DD61816AAE6D700AD40F3 /* EasyJSWebViewProxyDelegate.m */,
+				FAFC6E1616AD815200DFE50D /* EasyJSDataFunction.h */,
+				FAFC6E1716AD815200DFE50D /* EasyJSDataFunction.m */,
 			);
 			path = EasyJSWebView;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 				B56DD61A16AAE6D700AD40F3 /* EasyJSWebView.m in Sources */,
 				B56DD61B16AAE6D700AD40F3 /* EasyJSWebViewProxyDelegate.m in Sources */,
 				B56DD62016AAE7A300AD40F3 /* MyJSInterface.m in Sources */,
+				FAFC6E1816AD815200DFE50D /* EasyJSDataFunction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

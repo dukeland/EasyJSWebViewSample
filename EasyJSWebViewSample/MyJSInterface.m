@@ -22,6 +22,14 @@
 	NSLog(@"test with param: %@ and param2: %@", param, param2);
 }
 
+- (void) testWithFuncParam: (EasyJSDataFunction*) param{
+	NSLog(@"test with func");
+	
+	NSString* ret = [param executeWithParam:@"blabla:\"bla"];
+	
+	NSLog(@"Return value from callback: %@", ret);
+}
+
 - (NSString*) testWithRet{
 	NSString* ret = @"js";
 	return ret;

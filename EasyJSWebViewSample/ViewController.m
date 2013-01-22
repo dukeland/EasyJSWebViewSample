@@ -26,7 +26,7 @@
 	
 	[self.myWebView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] 																		 pathForResource:@"test" ofType:@"html"]isDirectory:NO]]];
 	
-	[self performSelector:@selector(testDealloc) withObject:self afterDelay:4];
+	//[self performSelector:@selector(testDealloc) withObject:self afterDelay:40];
 }
 
 - (void) testDealloc{

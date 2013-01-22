@@ -5,7 +5,12 @@
 			MyJSTest.testWithParam("ha:ha");
 			MyJSTest.testWithTwoParamAndParam2("haha1", "haha2");
 			
-			(MyJSTest.testWithRet());
+			MyJSTest.testWithRet();
+			
+			MyJSTest.testWithFuncParam(function (data){
+				alert(data);
+				return "some data";
+			});
 		</script>
 	</head>
 	
